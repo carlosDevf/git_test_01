@@ -1,0 +1,85 @@
+{
+  "status": 1,
+  "batch": 45,
+  "product_line": "MASTER_FRONTEND",
+  "start_date": { "$date": "2025-09-15T00:00:00.000Z" },
+  "end_date": { "$date": "2026-07-17T00:00:00.000Z" },
+  "payment_date": { "$date": "2025-09-16T00:00:00.000Z" },
+  "welcome_meeting_url": "",
+  "calendars": [
+    {
+      "groups": [],
+      "path": "WEB",
+      "payment_due_date": { "$date": "2025-09-17T00:00:00.000Z" },
+      "modules": [
+        {
+          "title": "Introducción a la programación.",
+          "slug": "intro_programming",
+          "weeks_duration": 4,
+          "order": 1,
+          "start_date": { "$date": "2025-09-15T00:00:00.000Z" },
+          "end_date":   { "$date": "2025-10-10T00:00:00.000Z" }
+        },
+        {
+          "title": "Fundamentos del Desarrollo Web",
+          "slug": "fundamentos_desarrollo_web",
+          "weeks_duration": 4,
+          "order": 2,
+          "start_date": { "$date": "2025-10-20T00:00:00.000Z" },
+          "end_date":   { "$date": "2025-11-14T00:00:00.000Z" }
+        },
+        {
+          "title": "JavaScript desde Cero",
+          "slug": "javascript_desde_cero",
+          "weeks_duration": 4,
+          "order": 3,
+          "start_date": { "$date": "2025-11-24T00:00:00.000Z" },
+          "end_date":   { "$date": "2025-12-19T00:00:00.000Z" }
+        },
+        {
+          "title": "Lógica y Algoritmos",
+          "slug": "logica_algoritmos",
+          "weeks_duration": 4,
+          "order": 4,
+          "start_date": { "$date": "2026-02-02T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-02-27T00:00:00.000Z" }
+        },
+        {
+          "_id": { "$oid": "650cbacf4ca65e00147cb9f0" },
+          "title": "Desarrollo Avanzado en JavaScript",
+          "slug": "desarrollo_avanzado_javascript",
+          "weeks_duration": 4,
+          "order": 5,
+          "start_date": { "$date": "2026-03-08T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-04-03T00:00:00.000Z" }
+        },
+        {
+          "_id": { "$oid": "650cbacf4ca65e00147cb9f1" },
+          "title": "Introducción a React",
+          "slug": "intro_react",
+          "weeks_duration": 4,
+          "order": 6,
+          "start_date": { "$date": "2026-04-12T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-05-08T00:00:00.000Z" }
+        },
+        {
+          "title": "React Avanzado",
+          "slug": "react_avanzado",
+          "weeks_duration": 4,
+          "order": 7,
+          "start_date": { "$date": "2026-05-17T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-06-12T00:00:00.000Z" }
+        },
+        {
+          "title": "Proyecto Final",
+          "slug": "proyecto_final_front",
+          "weeks_duration": 4,
+          "order": 8,
+          "start_date": { "$date": "2026-06-21T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-07-17T00:00:00.000Z" }
+        }
+      ]
+    }
+  ],
+  "updatedAt": { "$date": "2025-09-02T00:00:00.000Z" }
+}

@@ -1,0 +1,87 @@
+{
+    
+  "status": 1,
+  "batch": 45,
+  "tenant": "DEVF",
+  "product_line": "MASTER_2D6M",
+  "start_date": {
+    "$date": "2025-08-12T00:00:00.000Z"
+  },
+  "end_date": {
+    "$date": "2025-12-23T00:00:00.000Z"
+  },
+  "payment_date": {
+    "$date": "2025-08-13T00:00:00.000Z"
+  },
+  "welcome_meeting_url": "",
+  "calendars": [
+    {
+      "groups": [
+        {
+          "$oid": "68560ea3f69181001511c89c"
+        },
+        {
+          "$oid": "689ab0f1a53ccf00159d0d56"
+        }
+      ],
+      "_id": {
+        "$oid": "650cbadc4ca65e00147cba5a"
+      },
+      "path": "DS",
+      "modules": [
+        {
+          "_id": { "$oid": "650cbadc4ca65e00147cba5b" },
+          "title": "Kata Fundamentos de Programación",
+          "slug": "kata_herramientas_ds",
+          "weeks_duration": 4,
+          "order": 1,
+          "start_date": { "$date": "2025-09-15T00:00:00.000Z" },
+          "end_date":   { "$date": "2025-10-10T00:00:00.000Z" }
+        },
+        {
+          "_id": { "$oid": "650cbadc4ca65e00147cba5c" },
+          "title": "Fundamentos Matemáticos",
+          "slug": "kata_intro_ds",
+          "weeks_duration": 4,
+          "order": 2,
+          "start_date": { "$date": "2025-10-20T00:00:00.000Z" },
+          "end_date":   { "$date": "2025-11-14T00:00:00.000Z" }
+        },
+        {
+          "_id": { "$oid": "650cbadc4ca65e00147cba5d" },
+          "title": "Kata Introducción al Análisis de Datos",
+          "slug": "kata_fundamentos",
+          "weeks_duration": 4,
+          "order": 3,
+          "start_date": { "$date": "2025-11-24T00:00:00.000Z" },
+          "end_date":   { "$date": "2025-12-19T00:00:00.000Z" }
+        },
+        {
+          "_id": { "$oid": "650cbadc4ca65e00147cba5e" },
+          "title": "Kata Introducción a la Ingeniería de Datos",
+          "slug": "kata_data_wrangling",
+          "weeks_duration": 4,
+          "order": 4,
+          "start_date": { "$date": "2026-02-02T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-02-27T00:00:00.000Z" }
+        },
+        {
+          "_id": { "$oid": "650cbadc4ca65e00147cba5f" },
+          "title": "Introducción al Aprendizaje Automático",
+          "slug": "kata_data_visualization",
+          "weeks_duration": 4,
+          "order": 5,
+          "start_date": { "$date": "2026-03-09T00:00:00.000Z" },
+          "end_date":   { "$date": "2026-04-03T00:00:00.000Z" }
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-08-11T23:42:55.053Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-12T03:11:45.338Z"
+  },
+  "__v": 0
+}
